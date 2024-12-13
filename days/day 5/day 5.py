@@ -28,7 +28,6 @@ exampleUpdates = """75,47,61,53,29
 97,13,75,29,47"""
 
 import pprint
-import random
 
 def getRules(input: str) -> dict[int, [int]]:
     lines = input.splitlines()

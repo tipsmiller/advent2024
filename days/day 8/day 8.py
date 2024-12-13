@@ -46,7 +46,7 @@ class Position:
     def __hash__(self):
         return hash((self.x, self.y))
 
-@dataclass()
+@dataclass
 class Antenna:
     pos: Position
     freq: str
